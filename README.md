@@ -130,7 +130,7 @@ If you choose to **use Express**, this command will **purge all of the Fastify d
 
 ```bash
 # removing Fastify dependencies
-$ npm rm @nestjs/platform-fastify fastify-helmet fastify-rate-limit fastify-swagger --save
+$ pnpm rm @nestjs/platform-fastify fastify-helmet fastify-rate-limit fastify-swagger --save
 ```
 
 ---

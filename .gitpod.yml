@@ -2,5 +2,4 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: yarn install && yarn run build
-    command: yarn run start
+  - init: pnpm install && pnpm run start
